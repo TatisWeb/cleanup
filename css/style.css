@@ -200,7 +200,7 @@ html {font-size: 24px;}
 .intro{
  width: 100%;
  height: 100vh;
- background-image: url(/img/intro.jpg);
+ background-image: url(/img/intro.jpg), url(https://i.ibb.co/FzmB9Fs/intro.jpg);
  background-size: 1000px 100%;
  background-position: center;
  z-index: -1;
