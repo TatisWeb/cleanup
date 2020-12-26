@@ -200,7 +200,7 @@ html {font-size: 24px;}
 .intro{
  width: 100%;
  height: 100vh;
- background-image: url(/img/intro.jpg), url(https://i.ibb.co/5hnFB15/order.jpg);
+ background-image: url(/img/intro.jpg),url(https://i.ibb.co/8bPzwxQ/intro.jpg);
  background-size: 1000px 100%;
  background-position: center;
  z-index: -1;
@@ -674,7 +674,7 @@ html {font-size: 24px;}
 
   .order{
    background: green;
-   background-image: url(/img/order.jpg),url(https://i.ibb.co/8bPzwxQ/intro.jpg);
+   background-image: url(/img/order.jpg),(https://i.ibb.co/5hnFB15/order.jpg);
    background-size: cover;
    width:100%;
    height: 37rem;
