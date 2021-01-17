@@ -101,6 +101,20 @@ html {font-size: 10px;}
  html{font-size: 14px;}
 }
 
+@media (min-width:950px){
+  .intro {
+    background-size: 2000px!important;
+    height: 65vh!important;
+  }
+  .intro-content h1{
+   font-size: 6rem;
+  }
+  .arrow__down__two,.arrow__down{
+   display: none;
+  }
+}
+
+
 
 /* menu intro */
 .logo{
