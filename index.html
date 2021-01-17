@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Клининговая компания CleanUP</title>
     <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
     <!-- Slider OwlCarousel2 -->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -13,6 +15,9 @@
   <script src="js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
 </head>
 
@@ -28,7 +33,7 @@
     <a href="#" class="menu-btn"> <span></span></a>
         
         <!-- Меню гамбургер -->
-    <div class="menu-close-btn"><a href="#" class="menu-close-btn"><img class="menu-close-img" src="img/close-icon.jpg" title="close-icon" alt="clsoe-icon"></a></div>
+    <div class="menu-close-btn"><a href="#" class="menu-close-btn"><img class="menu-close-img" src="img/close-icon.jpg" title="close-icon" alt="close-icon"></a></div>
       
     <nav class="menu-list">
       <a href="#" >главная</a>
@@ -63,6 +68,7 @@
  </header>
 <main>
  <section class="intro">
+  <div class="container">
  
    
   <div class="intro">
@@ -74,7 +80,7 @@
   <div class="intro-content">
    <h1> Уборка квартир в Москве</h1>
    <p> профессиональный клининг от 1490₽</p>
-   <a href="#" class="btn__clean__up">заказать уборку</a>
+   <a href="#ex1" rel="modal:open" class="btn__clean__up">заказать уборку</a>
   </div>
   
   <div class="arrow__down">
@@ -87,7 +93,7 @@
   </div>
   
   
-  
+  </div>
   
   
  </section>
@@ -95,6 +101,7 @@
  <!-- /* section advantage */ -->
  
  <section class="advantage">
+   <div class="container">
  
  <div class="advantage-content">
   
@@ -128,7 +135,7 @@
       
       </div>
       </div>
-  
+     </div>
  </section>
  <section class="section-price">
   <div class="container">
@@ -142,57 +149,57 @@
     <div class="price__item">
      <img class="banner" src="img/banner_1.jpg">
      <h3>Уборка квартир</h3>
-     <p>от 2000₽</p>
-     <a href="#" class="price__btn">Заказать услугу</a>
+     <p>от 1490₽</p>
+     <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
     </div>
     
    <div class="price__item">
     <img class="banner" src="img/banner_2.jpg">
        <h3>Уборка офисов</h3>
-       <p>от 2000₽</p>
-       <a href="#" class="price__btn">Заказать услугу</a>
+       <p>от 3000₽</p>
+       <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
       </div>
       
       <div class="price__item">
     <img class="banner" src="img/banner_3.jpg">
          <h3>Химчистка мебели</h3>
-         <p>от 2000₽</p>
-         <a href="#" class="price__btn">Заказать услугу</a>
+         <p>от 500₽</p>
+         <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
         </div>
       
         <div class="price__item">
          <img class="banner" src="img/banner_4.png">
          <h3>Клининг окон</h3>
-         <p>от 2000₽</p>
-         <a href="#"  class="price__btn">Заказать услугу</a>
+         <p>от 1490₽</p>
+         <a href="#ex1" rel="modal:open"  class="price__btn">Заказать услугу</a>
         </div>
         
           <div class="price__item">
-           <img class="banner" src="img/banner_4.png">
-           <h3>Клининг окон</h3>
-           <p>от 2000₽</p>
-           <a href="#" class="price__btn">Заказать услугу</a>
+           <img class="banner" src="img/place-clean.jpg">
+           <h3>Уборка территории</h3>
+           <p>от 1800₽</p>
+           <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
           </div>
           
        <div class="price__item">
-        <img class="banner" src="img/banner_4.png">
-        <h3>Клининг окон</h3>
-        <p>от 2000₽</p>
-        <a href="#" class="price__btn">Заказать услугу</a>
+        <img class="banner" src="img/home-clean.jpg">
+        <h3>Уборка домов</h3>
+        <p>от 4000₽</p>
+        <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
        </div>
        
      <div class="price__item">
-      <img class="banner" src="img/banner_4.png">
-      <h3>Клининг окон</h3>
-      <p>от 2000₽</p>
-      <a href="#" class="price__btn">Заказать услугу</a>
+      <img class="banner" src="img/general-clean.jpg">
+      <h3>Генеральная уборка</h3>
+      <p>от 5000₽</p>
+      <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
      </div>
      
    <div class="price__item">
-    <img class="banner" src="img/banner_4.png">
-    <h3>Клининг окон</h3>
+    <img class="banner" src="img/dez.jpeg">
+    <h3>Дезинфекция</h3>
     <p>от 2000₽</p>
-    <a href="#" class="price__btn">Заказать услугу</a>
+    <a href="#ex1" rel="modal:open" class="price__btn">Заказать услугу</a>
    </div>
         
      </div>
@@ -205,6 +212,7 @@
   
  </section>
  <section class="ask">
+   <div class="container">
  <div class="ask__content">
  <h2 class="ask__article"> Есть вопросы?</h2>
  
@@ -305,16 +313,16 @@
       <a href="#content-5">Что не входит в стоимость уборки? <p class="tabs__content__layer">&rsaquo;</p></a>
    </div>
    </div>
-    <a href="#" class="btn__clean__up tabs__btn">задать вопрос</a>
+    <a href="#ex1" rel="modal:open" class="btn__clean__up tabs__btn">задать вопрос</a>
   
    </div>
-
+   </div>
  </section>
  
  <!--/* SECTION QUALITY */-->
  
  <section>
-  
+   <div class="container">
   
   <div class="quality">
    
@@ -339,11 +347,13 @@
    
   </div>
   
-  
+  </div>
   
  </section>
  
- <section >
+ <section>
+   <div class="container">
+  
   <div class="digital">
    
    <h1>Cleanup в цифрах</h1>
@@ -367,19 +377,23 @@
     </div>
     
   </div>
+  </div>
  </section>
- <section >
-   
+ 
+ <section>
+   <div class="container">
+    
+    <h1 class="feedback-title"> Отзывы наших клиентов</h1>
     
   <div class="feedback-body">
-  <h1> Отзывы наших клиентов</h1>
+ 
+   <div id="js-owl-prev" class="js-owl-prev"><img src="img/arrow-left.png" alt="->"></div>  
+     
+              
+   <div id="js-owl-next" class="js-owl-next"> <img src="img/arrow-right.png" alt="<-"> </div>
+    
   
   <div class="feedback">
-  
-      <div id="js-owl-prev" class="js-owl-prev"><img src="img/arrow-left.png" alt="->"></div>   
-              
-      <div id="js-owl-next" class="js-owl-next"> <img src="img/arrow-right.png" alt="<-"> </div>
-    
             
      
    <div class="owl-carousel owl-theme">
@@ -444,11 +458,14 @@
     
      </div>
   </div>
+ 
+  </div>
   </div>
   </div>
  </section>
 
  <section>
+   <div class="container">
   <div class="order">
    <h5>Закажите уборку сейчас</h5>
    <p>Мы готовы приехать уже сегодня </p>
@@ -461,17 +478,19 @@
      
      <input class="formEmail" placeholder="Почта*:">
      
-     <button class="btn__form-ins" type="submit">Заказать уборку</button>
+     <button onclick="window.location.href = 'https://wa.me/+79064725910';" class="btn__form-ins" type="button">Заказать уборку</button>
       </form>
     
    </div>
    
+  </div>
   </div>
  </section>
    
 </main>
 
 <footer>
+  <div class="container">
  
  <div class="footer">
   
@@ -485,7 +504,7 @@
   
    <div class="footer__www__box">
    <img class="www" src="img/www.png" alt="site">
-   <a href="#">www.cleanup.com</a>
+   <a href="#ex1" rel="modal:open">www.cleanup.com</a>
    </div>
    
   </div>
@@ -508,15 +527,38 @@
     <img class="footer__icon__instagram" src="img/instagram.png" alt="instagram">
     
    </div>
-       <a href="#" >@ 2019 ООО "КлинАП" </a>
+       <a href="#ex1" rel="modal:open" >@ 2019 ООО "КлинАП" </a>
    
   </div>
  
  
  </div>
- <a href="https://tatisweb.ru" class="developed">Веб-разработка | Тарасенко Сергей</a>
- 
+    <div class="footer__dev">
+      <a href="https://tatisweb.ru" class="developed">Developed by Sergey Tarasenko | 2020
+      </a>
+    </div>
+ </div>
 </footer>
+<!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+ 
+ <div class="modal-bay">
+    
+    <div class="order__form" >
+    
+     <form class="form-ins">
+     
+     <input class="formName" placeholder="Ваше имя*:" >
+     
+     <input class="formEmail" placeholder="Почта*:">
+     
+     <button onclick="window.location.href = 'https://wa.me/+79064725910';" class="btn__form-ins" type="button">Заказать уборку</button>
+      </form>
+    
+   </div>
+     
+ 
+ </div>
 
    <script src="js/main.js"></script>
        
