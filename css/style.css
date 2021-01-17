@@ -81,24 +81,24 @@ body {
 }
 
 @media (min-width: 950px) {
-html {font-size: 12px;}
+html {font-size: 10px;}
 }
 
 @media(min-width: 1200px){
- html{font-size: 13px;}
+ html{font-size: 11px;}
 }
 
 @media(min-width: 1400px){
- html{font-size: 13px;}
+ html{font-size: 12px;}
 }
 
 @media(min-width: 1600px){
- html{font-size: 14px;}
+ html{font-size: 12px;}
 }
 
 
 @media(min-width: 2200px){
- html{font-size: 16px;}
+ html{font-size: 14px;}
 }
 
 
@@ -216,7 +216,7 @@ html {font-size: 12px;}
 }
 
 /* ориентация телефона горизонтально */
-@media all and (orientation: landscape) {
+@media (orientation: landscape) {
   .intro{
    background-size: 1000px 100%!important;
    height: 100vh!important;
@@ -228,10 +228,10 @@ html {font-size: 12px;}
   }
 }
 
-@media (min-width:800px){
+@media (min-width:764px){
   .intro {
-    background-size: 2000px ;
-    height: 50vh;
+    background-size: 2000px!important;
+    height: 50vh!important;
   }
   .intro-content h1{
    font-size: 6rem;
@@ -260,7 +260,7 @@ html {font-size: 12px;}
 }
 
 
-@media (min-width:800px) {
+@media (min-width:764px) {
  .intro-content h1 {
   font-size: 5rem;
  }
