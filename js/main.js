@@ -45,3 +45,10 @@ $('.menu-close-btn').on('click', function(u) {
  $('.menu').removeClass('menu_active');
  $('.content').removeClass('content_active');
  $('.menu-btn').removeClass('menu-btn_active'); });
+ 
+ //intro button push and scroll 
+ 
+ $(".a-btn").click(function(){
+$("html, body").animate({scrollTop: $("header").height()+ 800 },"slow");
+
+return false;});
