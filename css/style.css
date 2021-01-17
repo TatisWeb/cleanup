@@ -101,20 +101,6 @@ html {font-size: 10px;}
  html{font-size: 14px;}
 }
 
-@media (min-width:950px){
-  .intro {
-    background-size: 2000px!important;
-    height: 65vh!important;
-  }
-  .intro-content h1{
-   font-size: 6rem;
-  }
-  .arrow__down__two,.arrow__down{
-   display: none;
-  }
-}
-
-
 
 /* menu intro */
 .logo{
@@ -254,6 +240,19 @@ html {font-size: 10px;}
    display: none;
   }
 }
+@media (min-width:950px){
+  .intro {
+    background-size: 2000px!important;
+    height: 65vh!important;
+  }
+  .intro-content h1{
+   font-size: 7rem!important;
+  }
+  .arrow__down__two,.arrow__down{
+   display: none;
+  }
+}
+
 
 .intro-content{
  margin-left: 2rem;
@@ -686,10 +685,12 @@ html {font-size: 10px;}
  .js-owl-prev{
   order: -1;
   align-self: center;
+  margin-right: 1rem;
  }
  .js-owl-next{
   order: +3;
   align-self: center;
+  
  }
  .js-owl-next img,.js-owl-prev img{
   height: 2rem;
@@ -709,12 +710,14 @@ html {font-size: 10px;}
   .feedback-body{
    position: relative;
    width: 100%;
+   max-width: 60rem;
    height: 100%;
    background-color: #f7f7f7;
    padding-top: 2rem;
    display: flex;
    flex-direction: row;
    align-items: center;
+   margin: 0 auto;
   }
   
    .feedback-title {
