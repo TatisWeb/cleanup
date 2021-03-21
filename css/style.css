@@ -60,7 +60,6 @@ body {
 }
 .btn__clean__up:hover {
  box-shadow: 0 0 25px #00FFF3;
- font-weight: 900;
 }
 
 
@@ -212,7 +211,7 @@ html {font-size: 10px;}
  background-image: url(/img/intro.jpg), url(https://i.ibb.co/8bPzwxQ/intro.jpg);
  background-size: 1000px 100%;
  background-position: 50%;
- z-index: -1;
+ z-index: -10;
 }
 
 /* ориентация телефона горизонтально */
@@ -257,7 +256,7 @@ html {font-size: 10px;}
 .intro-content{
  margin-left: 2rem;
  margin-top: 17rem;
- z-index: 100;
+ z-index: 0;
  position: absolute;
  display: flex;
  flex-direction: column;
@@ -280,9 +279,10 @@ html {font-size: 10px;}
 }
 
 .intro-content p {
- font-size: 1.8rem;
+ font-size: 2.5rem;
  color:  var(--t-color);
  font-weight: 500;
+ margin-top: 2rem;
  margin-bottom: 1.5rem;
 }
 
@@ -396,7 +396,6 @@ html {font-size: 10px;}
  }
  .price__item:hover {
   box-shadow: 0 0 25px #00FFF3;
-  transform: scale(1.1);
  }
  .banner{
   max-width: 100%;
@@ -435,7 +434,6 @@ html {font-size: 10px;}
  }
  .price__btn:hover {
   box-shadow: 0 0 25px #00FFF3;
-  font-weight: 900;
  }
  
  /* SECTION TABS */
@@ -640,7 +638,6 @@ html {font-size: 10px;}
 }
 .btn__form-ins:hover {
  box-shadow: 0 0 25px #00FFF3;
- font-weight: 900;
 }
 
 /* SECTION DIGITAL */
@@ -1028,7 +1025,6 @@ html {font-size: 10px;}
 
  .menu__pc__icon:hover {
   color: var(--t-color);
-  font-weight: 900;
  }
  
  
